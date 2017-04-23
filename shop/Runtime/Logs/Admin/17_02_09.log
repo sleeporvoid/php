@@ -1,0 +1,66 @@
+[ 2017-02-09T20:12:56+08:00 ] 127.0.0.1 /shop/index.php/Admin/login
+ERR: 无法加载控制器:Login
+
+[ 2017-02-09T20:13:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/User/login
+ERR: 无法加载控制器:User
+
+[ 2017-02-09T21:01:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/%3C?php%20echo%20ADMIN_CSS_URL?%3EUser_Login.css
+ERR: 非法操作:
+
+[ 2017-02-09T21:01:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eadmin.png
+ERR: 非法操作:
+
+[ 2017-02-09T21:01:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Euser_botton.gif
+ERR: 非法操作:
+
+[ 2017-02-09T21:03:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/__CONTROLLER__/right.html
+ERR: 无法加载控制器:__CONTROLLER__
+
+[ 2017-02-09T21:03:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/__CONTROLLER__/left.html
+ERR: 无法加载控制器:__CONTROLLER__
+
+[ 2017-02-09T21:03:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/__CONTROLLER__/head.html
+ERR: 无法加载控制器:__CONTROLLER__
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Emenu_icon.gif
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_CSS_URL?%3Eadmin.css
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eheader_right.jpg
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eheader_left.jpg
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eadmin_p.gif
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Emenu_icon.gif
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php
+ERR: 非法操作:
+
+[ 2017-02-09T21:04:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eheader_bg.jpg
+ERR: 非法操作:
+
+[ 2017-02-09T21:06:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eheader_left.jpg
+ERR: 非法操作:
+
+[ 2017-02-09T21:06:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Eheader_bg.jpg
+ERR: 非法操作:
+
+[ 2017-02-09T21:10:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Emenu_icon.gif
+ERR: 非法操作:
+
+[ 2017-02-09T21:10:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php
+ERR: 非法操作:
+
+[ 2017-02-09T21:11:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php%20echo%20ADMIN_IMAGE_URL?%3Emenu_icon.gif
+ERR: 非法操作:
+
+[ 2017-02-09T21:11:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/%3C?php
+ERR: 非法操作:
+

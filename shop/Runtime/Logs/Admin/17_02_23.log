@@ -1,0 +1,45 @@
+[ 2017-02-23T21:41:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/distrubute/role_id/100
+ERR: Think\Model:excute方法不存在！
+
+[ 2017-02-23T21:42:18+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/distrubute/role_id/100
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(role_auth_ids,role_auth_ac)
+    VALUES('10,21,22,23,49','Goods-showlist,Goods-' at line 1
+
+[ 2017-02-23T21:43:54+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/distrubute/role_id/100
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(role_auth_ids,role_auth_ac) 
+    VALUES('10,21,22,23,49','Goods-showlist,Goods' at line 1
+
+[ 2017-02-23T21:44:09+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-23T21:44:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/distrubute/role_id/100
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(role_auth_ids,role_auth_ac) 
+    VALUES('10,21,22','Goods-showlist,Goods-tianj' at line 1
+
+[ 2017-02-23T22:30:15+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2017-02-23T22:30:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2017-02-23T22:35:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2017-02-23T22:41:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Auth\showlist.html"  on line 30 "&lt;td&gt;{$v.auth_name|indent:$auth_level,&quot;--/&quot;}&lt;/td&gt;"  - Unexpected ",", expected one of: "}" , " "
+
+[ 2017-02-23T22:44:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Auth\showlist.html"  on line 30 "&lt;td&gt;{$v.auth_name|intent:$v.auth_level,&quot;--/&quot;}&lt;/td&gt;" unknown modifier "intent"
+
+[ 2017-02-23T22:44:26+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Auth\showlist.html"  on line 30 "&lt;td&gt;{$v.auth_name|indent:$v.auth_level,&quot;--/&quot;}&lt;/td&gt;"  - Unexpected ",", expected one of: "}" , " "
+
+[ 2017-02-23T22:45:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Auth\showlist.html"  on line 30 "&lt;td&gt;{$v.auth_name|indent:$v.auth_level,'--/'}&lt;/td&gt;"  - Unexpected ",", expected one of: "}" , " "
+
+[ 2017-02-23T23:07:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/tianjia
+ERR: Think\Model:selsect方法不存在！
+
+[ 2017-02-23T23:32:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+

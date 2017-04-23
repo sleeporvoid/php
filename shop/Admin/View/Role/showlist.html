@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <table border="1" width='100%' cellspacing="0">
+    	<tr>
+    		<th>id</th>
+    		<th>角色名称</th>
+    		<th>权限ids</th>
+    		<th>权限控制器/控制方法</th>
+    		<th align="center" colspan="3">操作</th>
+    	</tr> 
+    	{foreach $roleinfo as $k =>$v}	 
+    	<tr>
+    	<td>{$v.role_id}</td>		
+    	<td>{$v.role_name}</td>		
+    	<td>{$v.role_auth_ids}</td>		
+    	<td>{$v.role_auth_ac}</td>		
+    	<td><a href="{$smarty.const.__CONTROLLER__}/distrubute/role_id/{$v.role_id}">分配权限</a></td>		
+    	<td><a href="#">修改</a></td>		
+    	<td><a href="#">删除</a></td>		
+    	</tr>
+    	{/foreach}
+
+    </table>
+
+
+    </body>
+</html>

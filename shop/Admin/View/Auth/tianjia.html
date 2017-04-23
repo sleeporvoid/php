@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+           <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：角色管理-》添加角色</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <!--当前访问： /shop/index.php/Admin/Goods/showlist-->
+                    <a style="text-decoration: none;" href="{$smarty.const.__CONTROLLER__}/showlist">【返回列表】</a>
+                </span>
+            </span>
+        </div>
+    <form action="{$smaty.const.__SELF__}" method="post" >
+    <table border="1" width="100%" class="table_a">
+    	<tr>
+    		<td>权限名称</td>
+    		<td><input name="auth_name" type="text"></td>
+       </tr>
+       <tr>
+       <td>上级</td>
+       <td>
+       	<select name="auth_pid">
+       		<option value="0">--请选择</option>
+       		{foreach $authinfo as $v}
+       		<option value="{$v.auth_id}">{$v.auth_name}</option>
+       		{/foreach}
+       	</select>
+       </td>
+       </tr>
+       <tr>
+       	<td>控制器</td>
+       	<td><input type="text" name="auth_c"></td>
+       </tr>
+       <tr>
+       	<td>方法</td>
+       	<td><input type="text" name="auth_a"></td>
+       </tr>
+    </table>
+    <br>
+    <br>
+    <input type="submit" value="提交">
+    </form>
+    </body>
+</html>

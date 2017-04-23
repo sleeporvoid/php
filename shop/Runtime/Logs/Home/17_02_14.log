@@ -1,0 +1,24 @@
+[ 2017-02-14T11:23:49+08:00 ] 127.0.0.1 /shop/index.php/Home/User/regist
+ERR: 非法操作:regist
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/biao3.gif
+ERR: 非法操作:
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/biao6.gif
+ERR: 非法操作:
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/biao7.gif
+ERR: 非法操作:
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/di.jpg
+ERR: 非法操作:
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/yongda_logo.gif
+ERR: 非法操作:
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/sousuo.gif
+ERR: 非法操作:
+
+[ 2017-02-14T11:59:59+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%3C?php%20echo%20IMAGE_URL?%3E/ecmoban_link.jpg
+ERR: 非法操作:
+

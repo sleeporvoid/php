@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：角色管理-》角色列表</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <!--当前访问： /shop/index.php/Admin/Goods/showlist-->
+                    <a style="text-decoration: none;" href="{$smarty.const.__CONTROLLER__}/tianjia">【添加角色】</a>
+                </span>
+            </span>
+        </div>
+    	<table border="1" class="table_a" width="100%">
+    	<tr style="font-weight bold;">
+    		<th>序列号</th>
+    		<th>名称</th>
+    		<th>父序号</th>
+    		<th>控制器</th>
+    		<th>方法</th>
+    		<th>全路径</th>
+    		<th>级别</th>
+    		<th colspan="2">操作</th>
+    	</tr>
+    	{foreach $authinfo as $v}
+    	<tr>
+    	 <td style="text-align:center">{$v.auth_id}</td>
+         <td>{$v.auth_name|indent:$v.auth_level:'--/'}</td>
+         <td>{$v.auth_pid}</td>
+         <td>{$v.auth_c}</td>
+         <td>{$v.auth_a}</td>
+         <td>{$v.auth_path}</td>
+         <td>{$v.auth_level}</td>
+         <td style="text-align:center"><a href="#">修改</a></td>
+         <td style="text-align:center"><a href="#">删除</a></td>
+    	</tr>
+    	{/foreach}
+    	</table>
+    </body>
+</html>

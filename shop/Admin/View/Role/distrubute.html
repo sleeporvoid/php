@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <form action="{$smarty.const.__SELF__}" method="post">
+    	<table width="100%" border="1" cellspacing="0">
+      	{foreach $authinfoA as $v}
+      	<tr width="18%">
+      	<td>
+      		<input type="checkbox" name="auth_id[]" value="{$v.auth_id}" 
+           {if in_array($v.auth_id,$have_auth)}checked='checked'{/if}
+      		>{$v.auth_name}
+      	</td>
+      	  <td>	
+        {foreach $authinfoB as $vv}
+        {if $vv.auth_pid==$v.auth_id}
+            <div style="width:200px;float:left;">
+        	<input type="checkbox" name="auth_id[]" value="{$vv.auth_id}" 
+         {if in_array($vv.auth_id,$have_auth)}checked='checked'{/if}
+      		>{$vv.auth_name}
+       
+        {/if}
+    </div>
+        {/foreach}
+         </td>
+        </tr>
+        {/foreach}
+    	</table>
+    	<br>
+    	<input type="submit" value="修改权限">
+    	</form>
+    </body>
+</html>

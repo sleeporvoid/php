@@ -1,0 +1,60 @@
+[ 2017-02-19T08:53:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0811.sw_sw_role' doesn't exist
+
+[ 2017-02-19T08:53:57+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0811.sw_sw_role' doesn't exist
+
+[ 2017-02-19T09:20:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'auth_ids' in 'where clause'
+
+[ 2017-02-19T09:20:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'auth_ids' in 'where clause'
+
+[ 2017-02-19T09:20:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$auth_ids' in 'where clause'
+
+[ 2017-02-19T09:30:58+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Index\left.html"  on line 64 "&lt;/html&gt;" unclosed {foreach} tag
+
+[ 2017-02-19T09:31:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Indexleft
+ERR: 无法加载控制器:Indexleft
+
+[ 2017-02-19T09:31:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Index\left.html"  on line 64 "&lt;/html&gt;" unclosed {foreach} tag
+
+[ 2017-02-19T09:37:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Index\left.html"  on line 33 "{foreach $auth_infas $k =&gt;$v}"  - Unexpected " =>", expected one of: "}" , " "
+
+[ 2017-02-19T09:37:14+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Index\left.html"  on line 33 "{foreach $auth_infas $k =&gt;$v}"  - Unexpected " =>", expected one of: "}" , " "
+
+[ 2017-02-19T10:34:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-02-19T10:55:31+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-02-19T10:55:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2017-02-19T10:55:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2017-02-19T10:55:37+08:00 ] 127.0.0.1 /shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2017-02-19T10:55:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2017-02-19T10:55:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Role/showlist
+ERR: 无法加载控制器:Role
+
+[ 2017-02-19T10:55:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-19T10:55:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+
+[ 2017-02-19T11:10:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+

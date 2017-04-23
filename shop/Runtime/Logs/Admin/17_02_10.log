@@ -1,0 +1,96 @@
+[ 2017-02-10T18:29:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shop.0811'
+
+[ 2017-02-10T18:30:02+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Goods\showlist.html"  on line 12 ".tr_color{background-color: #9F88FF}"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174034-58977.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174034-97960.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174248-28718.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_CSS_URL;%20?%3Emine.css
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174248-87501.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174346-31424.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174346-54660.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174455-91962.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T18:31:50+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMAGE_URL;%20?%3E20121018-174455-10118.jpg
+ERR: 非法操作:
+
+[ 2017-02-10T19:19:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Goods\showlist.html"  on line 57 "&lt;td&gt;{$v.goods_create_time|date_format:'%Y-%m-%d %T';}&lt;/td&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2017-02-10T19:20:22+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Goods\showlist.html"  on line 57 "&lt;td&gt;{$v.goods_create_time|date_format:'%Y-%m-%d,%T';}&lt;/td&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2017-02-10T21:22:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__CONTROLLER__/tianjia
+ERR: 非法操作:__CONTROLLER__
+
+[ 2017-02-10T21:24:25+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist?s_product_mark=1
+ERR: Syntax Error in template "H:/web/shop/Admin/View\Goods\showlist.html"  on line 58 "&lt;td&gt;&lt;a href=&quot;{$smarty.const.__CONTROLLER__;}/upd&quot;&gt;修改&lt;/a&gt;&lt;/td&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2017-02-10T21:24:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_CSS_URL;%20?%3Emine.css
+ERR: 非法操作:
+
+[ 2017-02-10T21:25:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_CSS_URL;%20?%3Emine.css
+ERR: 非法操作:
+
+[ 2017-02-10T21:27:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_CSS_URL;%20?%3Emine.css
+ERR: 非法操作:
+
+[ 2017-02-10T21:30:23+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__CONTROLLER__/showlist
+ERR: 非法操作:__CONTROLLER__
+
+[ 2017-02-10T21:44:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/admin.php?c=goods&a=add
+ERR: 非法操作:admin.php
+
+[ 2017-02-10T21:45:51+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__MOUDLEtianjia
+ERR: 非法操作:__MOUDLEtianjia
+
+[ 2017-02-10T21:46:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__MOUDLEtianjia
+ERR: 非法操作:__MOUDLEtianjia
+
+[ 2017-02-10T21:46:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__MOUDLE__tianjia
+ERR: 非法操作:__MOUDLE__tianjia
+
+[ 2017-02-10T21:46:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__MOUDLE__tianjia
+ERR: 非法操作:__MOUDLE__tianjia
+
+[ 2017-02-10T21:47:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__MOUDLE__tianjia
+ERR: 非法操作:__MOUDLE__tianjia
+
+[ 2017-02-10T21:47:12+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goodstianjia
+ERR: 无法加载控制器:Goodstianjia
+
+[ 2017-02-10T21:47:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goodstianjia
+ERR: 无法加载控制器:Goodstianjia
+
+[ 2017-02-10T22:26:20+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_name' cannot be null
+
+[ 2017-02-10T22:26:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_name' cannot be null
+
+[ 2017-02-10T22:27:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__SELT__
+ERR: 非法操作:__SELT__
+
+[ 2017-02-10T22:28:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__SELT__
+ERR: 非法操作:__SELT__
+
+[ 2017-02-10T22:28:45+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/__SELT__
+ERR: 非法操作:__SELT__
+

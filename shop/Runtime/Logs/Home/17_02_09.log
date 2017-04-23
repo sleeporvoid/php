@@ -1,0 +1,12 @@
+[ 2017-02-09T19:59:49+08:00 ] 127.0.0.1 /shop/
+ERR: Unable to load template file 'Index/index.html'
+
+[ 2017-02-09T20:00:26+08:00 ] 127.0.0.1 /shop/
+ERR: Unable to load template file 'Index/index.html'
+
+[ 2017-02-09T20:00:31+08:00 ] 127.0.0.1 /shop/
+ERR: Syntax Error in template "H:/web/shop/Home/View\Index\index.html"  on line 406 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2017-02-09T20:02:12+08:00 ] 127.0.0.1 /shop/
+ERR: Syntax Error in template "H:/web/shop/Home/View\Index\index.html"  on line 11 "&lt;link href=&quot;{smarty.const.CSS_URL}/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;"  - Unexpected ".", expected one of: "}" , " "
+

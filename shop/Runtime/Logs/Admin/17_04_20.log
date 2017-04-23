@@ -1,0 +1,18 @@
+[ 2017-04-20T12:18:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-04-20T12:18:13+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-04-20T12:18:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2017-04-20T12:18:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2017-04-20T12:18:44+08:00 ] 127.0.0.1 /shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2017-04-20T12:19:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+

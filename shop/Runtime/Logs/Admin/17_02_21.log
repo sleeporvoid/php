@@ -1,0 +1,30 @@
+[ 2017-02-21T19:45:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2017-02-21T19:46:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2017-02-21T20:03:19+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-21T20:14:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-21T20:31:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['mg_role_id']) )' at line 1
+
+[ 2017-02-21T21:10:27+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2017-02-21T21:20:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-21T21:51:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-21T21:56:35+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2017-02-21T21:58:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
